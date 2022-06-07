@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            background-color: cadetblue;
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            
+            <div class="اول" dir="rtl">
+                <h1>طلب تدريب\امتياز </h1>
+            </div>
+            <div class="all" dir="rtl">
+                <label>الاسم : أحمدأحمدأحمد (سيظهر تلقائي عند الضغط على أيقونة طلب تدريب جديد) </label>
+
+                <br><br>
+                <label dir="rtl"> الرقم الجامعي:221212121 (سيظهر تلقائي عند الضغط على أيقونة طلب تدريب جديد) </label>
+                <br><br>
+                <label>القسم: علوم المختبرات الإكلينيكية(سيظهر تلقائي عند الضغط على أيقونة طلب تدريب جديد)</label>
+                <br><br>
+                <label class="k"> ادخال رغبات التدريب:-</label>
+                <br><br><br>
+                
+
+            </div>
+            <div class="containere" dir="rtl">
+                <div class="containere" dir="rtl">
+                    <div class="dropdown" dir="rtl">
+                        <label for="">-الرغبة الاولى:-</label>
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            .......................................................................................................................................................................................................................................................................
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">الاختيار الاول </a></li>
+                            <li><a tabindex="-1" href="#">الاختيار الثاني </a></li>
+                            <li><a tabindex="-1" href="#">الاختيار الثالث </a></li>
+
+
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="containere" dir="rtl">
+                    <div class="dropdown" dir="rtl">
+                        <label for="">-الرغبة الثانية:-</label>
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            .......................................................................................................................................................................................................................................................................
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">الاختيار الاول </a></li>
+                            <li><a tabindex="-1" href="#">الاختيار الثاني </a></li>
+                            <li><a tabindex="-1" href="#">الاختيار الثالث </a></li>
+
+
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <br><br>
+                <div class="containere" dir="rtl">
+                    <div class="dropdown" dir="rtl">
+                        <label for="">-الرغبة الثالثة:-</label>
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                            .......................................................................................................................................................................................................................................................................
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">الاختيار الاول </a></li>
+                            <li><a tabindex="-1" href="#">الاختيار الثاني </a></li>
+                            <li><a tabindex="-1" href="#">الاختيار الثالث </a></li>
+
+
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <script>
+                    $(document).ready(function () {
+                        $('.dropdown-submenu a.test').on("click", function (e) {
+                            $(this).next('ul').toggle();
+                            e.stopPropagation();
+                            e.preventDefault();
+                        });
+                    });
+                </script>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $('.dropdown-submenu a.test').on("click", function (e) {
+                        $(this).next('ul').toggle();
+                        e.stopPropagation();
+                        e.preventDefault();
+                    });
+                });
+            </script>
+        </div>
+        </div>
+        <div class="last" dir="rtl">
+            <label for="">شروط و لوائح التدريب و الامتياز:-</label>
+            <div class="lasty" dir="rtl">
+                <label class="t">1-..............................................................................................................</label>
+                <label class="t">2-..............................................................................................................</label>
+                <label class="t">3-..............................................................................................................</label>
+                <label class="t">4-..............................................................................................................</label>
+                <label class="t">5-..............................................................................................................</label>
+                <label class="t">6-..............................................................................................................</label>
+                <br><br><br><br><br>
+                <input type="checkbox">
+                <label for="">تم الاطلاع وقراءة شروط ولوائح التدريب والامتياز كما اقر أنني أوافق على ذلك وأتحمل المسؤليه كاملة(يتم الضغط على المربع لتظهر علامة		✓</label>
+                <br><br><br><br>
+                <div class="lasto">
+                 <button dir="ltr">send     إرسال</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="../lec17/js/all.min.js"></script>
+    <script src="../lec17/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

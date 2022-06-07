@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+
+        .dropdown-submenu .dropdown-menu {
+            background-color: cadetblue;
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+
+    </style>
+</head>
+
+<body >
+    <section class="containere">
+        
+
+        <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                    الصفحه الرئيسيه
+                    <span class="caret"></span></button>
+                <ul class="dropdown-menu" >
+                    <li ><a tabindex="-1" href="./index2.html">بيانات الطالب الاساسية </a></li>
+
+                   
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+     </div>
+     <br><br><br><br>
+     <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">الطلبات
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="./index3.html">إنشاء طلب تدريب جديد</a></li>
+                <li class="dropdown-submenu">
+                    <a class="test" tabindex="-1" href="#">متابعة الطلبات <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="./index5.html">طلبات تحت التنفيذ</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="test" href="#">طلبات منتهية <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">مقبول</a></li>
+                                <li><a href="#">مرفوض</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div> 
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+     </div>
+     <br><br><br><br>
+     <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">التقييم
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">تقييم موقع التدريب</a></li>
+                
+               
+            </ul>
+        </div>
+
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+        
+     </div>
+     <br><br><br><br>
+     <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">طباعة الشهاده
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="./index6.html">طلب تحرير شهادة اتمام فترة التدريب</a></li>
+                
+               
+            </ul>
+        </div>  
+
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+     </div>
+     <br><br><br><br>
+     <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">الدعم الفني
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">البريد الإلكتروني</a></li>
+               
+            </ul>
+        </div>
+
+
+        <script>
+            $(document).ready(function () {
+                $('.dropdown-submenu a.test').on("click", function (e) {
+                    $(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            });
+        </script>
+     </div>
+    </section>
+
+
+
+
+
+
+    <script src="../lec17/js/all.min.js"></script>
+    <script src="../lec17/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

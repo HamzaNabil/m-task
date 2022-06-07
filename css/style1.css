@@ -1,0 +1,63 @@
+.divs{
+    background-color: transparent;
+    width: 24%;
+    border: 3px solid cadetblue;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+.اول{
+    text-align: center;
+    background-color: cadetblue;
+    border: 10px dotted rgb(255, 255, 255);
+    width: 800px;
+    margin-left:250px;
+    margin-bottom: 20px;
+    
+}
+.j{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    
+}
+.lables{
+    border: 3px solid cadetblue;
+    padding: 25px;
+}
+.labeel{
+    border: 3px solid cadetblue;
+    margin: 20px;
+    padding: 6px;
+    
+    
+}
+.laberl{
+    font-weight: bold;
+    font-size: larger;
+}
+.labol{
+    font-size:30px;
+}
+.password{
+    text-align: center;
+}
+.mybtn{
+    background-color: aquamarine;
+    border: 3px solid cadetblue;
+    color: rgb(100, 14, 14);
+    padding:5px 60px;
+}
+.labeol{
+    background-color: aquamarine;
+    border: 3px solid cadetblue;
+    color: rgb(100, 14, 14);
+    padding:5px 40px;
+    
+
+
+}
+section{
+    background-color: rgb(249, 208, 85);
+    border: 25px dashed darkblue;
+}
